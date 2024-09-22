@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @Controller
 public class VacationController {
 
-    VacationService service;
+    private final VacationService service;
 
     @Autowired
     public VacationController(VacationService service) {
